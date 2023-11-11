@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 export const App = () => {
+	// Императивный стиль : получение текущего года
 	const currentYear = new Date().getFullYear();
 	// Декларативный стиль: описание структуры интерфейса с использованием JSX.
 	return (
