@@ -3,14 +3,17 @@ import './App.css';
 
 export const App = () => {
 	const currentYear = new Date().getFullYear();
-
+	// Декларативный стиль: описание структуры интерфейса с использованием JSX.
 	return (
 		<div className="App">
 			<header className="App-header">
+				{/* Декларативный стиль: использование изображения для логотипа. */}
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
+					{/* Декларативный стиль: описание текста. */}
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
+				{/* Декларативный стиль: создание ссылки. */}
 				<a
 					className="App-link"
 					href="https://reactjs.org"
@@ -20,6 +23,7 @@ export const App = () => {
 					Learn React
 				</a>
 				<p>
+					{/* Декларативный стиль: вывод текущего года. */}
 					<code>{currentYear}</code>
 				</p>
 			</header>
